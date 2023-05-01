@@ -1,6 +1,6 @@
 # Meme Generator
 
-An interactive website generate random meme picture and allow you to add text on the top of the picture or the buttom.
+A simple interactive website generate random meme picture and allow you to add text on the top of the picture or the buttom.
 
 ## A React project
 
