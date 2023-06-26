@@ -5,87 +5,83 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.2rem;
-  background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%) ;
-  
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 }
 
-header .logo{ 
+header .logo {
   display: flex;
   align-items: center;
   justify-items: center;
 }
 
-header .logo img{
+header .logo img {
   width: 3rem;
   height: 3rem;
   color: aliceblue;
-  margin-left:0.8rem;
+  margin-left: 0.8rem;
 }
 
-header .logo h1{
+header .logo h1 {
   color: aliceblue;
   margin-left: 1rem;
 }
 
-header h4{
+header h4 {
   color: aliceblue;
   font-size: 1.2rem;
-  margin-left:1.2rem;
+  margin-left: 1.2rem;
 }
 
-.form{
+.form {
   display: grid;
   margin-top: 1.5rem;
   justify-items: center;
   align-items: center;
   justify-content: center;
-
 }
 
-.form .user-input{
+.form .user-input {
   display: grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
 }
 
-
-.form .user-input input{
+.form .user-input input {
   width: 100%;
   margin: 2rem;
-  font-size:1.2rem;
+  font-size: 1.2rem;
   padding: 1rem;
-  border-radius:5px;
-  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
   text-indent: 5px;
   font-family: "karla", sans-serif;
 }
 
-.form .user-input input.input1{
+.form .user-input input.input1 {
   width: 70%;
 }
 
-.form .user-input input.input2{
+.form .user-input input.input2 {
   width: 70%;
 }
 
-.form .btn img{
+.form .btn img {
   width: 2rem;
   height: 2rem;
   padding-left: 1rem;
-
 }
-.form .btn{
+.form .btn {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  background:linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   font-size: 1.2rem;
   color: #fff;
   border-radius: 5px;
@@ -95,16 +91,14 @@ header h4{
   font-family: "karla", sans-serif;
 }
 
-
-.form img.memeImg{
+.form img.memeImg {
   width: 100%;
   margin-top: 2rem;
   max-width: 50rem;
   max-height: 45rem;
 }
 
-
-.form .memeContainer{
+.form .memeContainer {
   position: relative;
   justify-content: center;
   text-align: center;
@@ -112,7 +106,7 @@ header h4{
 }
 
 .form .memeContainer .memeTopText,
-.form .memeContainer .memeBottomText{
+.form .memeContainer .memeBottomText {
   width: 80%;
   position: absolute;
   text-align: center;
@@ -125,25 +119,17 @@ header h4{
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
-  text-shadow:
-      2px 2px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      0 2px 0 #000,
-      2px 0 0 #000,
-      0 -2px 0 #000,
-      -2px 0 0 #000,
-      2px 2px 5px #000;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
 }
 
-.form .memeContainer .memeTopText{
+.form .memeContainer .memeTopText {
   top: 0;
   margin-top: 2rem;
 }
 
-
-.form .memeContainer .memeBottomText{
-  bottom:0 ;
+.form .memeContainer .memeBottomText {
+  bottom: 0;
   margin-bottom: 2rem;
 }
